@@ -9,9 +9,36 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<!-- <meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet"> -->
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+.column {
+  float: left;
+  width: 33.33%;
+  /*padding: 10px;
+  height: 300px; *//* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.vertical {
+      border-left: 6px w3-light-grey;
+      height: 200px;
+      position:statis;
+      left: 50%;
+    }
+
 </style>
+
 <body class="w3-light-grey">
 
 <!-- Page Container -->
@@ -25,25 +52,36 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
-          <img src="images/exec pic.jpg" style="width:100%" alt="Avatar">
-          <div class="w3-display-bottomleft w3-container w3-text-black">
+          <img src="images/photo.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-white">
             <h2>Chris Rafiaa</h2>
           </div>
         </div>
         <div class="w3-container">
+
+        	<p> <b>Fourth-year medical student with a passion for rural family medicine, teaching & mentorship, and programming. </b>
+        	</p>
+
           <p><i class="material-icons w3-margin-right" style="font-size:22px;color:teal">school</i>McGill University</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Montreal, QC</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Montreal, QC, Canada</p>
           <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>chris.rafiaa@mail.mcgill.ca</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>514-451-8865</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+1 514-451-8865</p>
           <hr>
            
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Software Skills</b></p>
-          
-          <p>Java, C, Python, Bash, OCaml, MATLAB, MIPS</p>
 
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Software Skills</b></p>
+
+          <p>Java, C/C++, Python, Bash, OCaml, MATLAB, HTML/CSS, MIPS</p>
+
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Hobbies</b></p>
+
+          <p>Programming, snowboarding, hiking, baking, health & fitness</p>
+
+<!-- 
           <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Lab Skills</b></p>
           
-          <p>PCR, Agarose gel Electrophoresis, Confocal Microscopy, Column chromotography, NMR spectroscopy</p>
+          <p>PCR, Agarose gel Electrophoresis, Confocal Microscopy, Column chromotography, NMR spectroscopy</p> -->
 
 
           <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
@@ -57,7 +95,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           </div>
           <p>French</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:15%"></div>
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:45%"></div>
           </div>
           <br>
         </div>
@@ -67,7 +105,80 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
     <!-- Left Column -->
 
+
+	<div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+          </div>
+        </div>
+        <div class="w3-container">
+        	<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>McGill University</b> <span style="float:right;">Montreal, QC, Canada</span></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020 - 2024</h6>
+          <p>Doctor of Medicine and Master of Surgery (MDCM)</p>
+          <hr>
+        </div>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>McGill University</b> <span style="float:right;">Montreal, QC, Canada</span></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2020</h6>
+          <p>Major in Neuroscience, computational stream. <br>Minor in Computer Science.</p>
+          <hr>
+       </div>
+		</div>
+      </div>
+
+      <br>
+
       <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+          </div>
+        </div>
+<div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Honors & Awards</h2>
+
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Graduation Deans Honors List </b> <span style="float:right;">Montreal, QC, Canada</span></h5>
+
+         <h6> <span class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2020</span> <span class="w3-opacity"style="float:right;">McGill University</span></h6>
+
+          <p class="w3-opacity">Awarded for graduating within the top 10% of the Faculty of Science.</p>
+          <hr>
+        </div>
+
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Science Class of 1965 Scholarship </b><span style="float:right;">Montreal, QC, Canada</span></h5>
+          <h6> <span class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>August 2019</span> <span class="w3-opacity"style="float:right;">McGill University</span> </h6>
+
+          <p class="w3-opacity">Awarded based on academic standing.</p>
+          <hr>
+        </div>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Deans Honors List </b><span style="float:right;">Montreal, QC, Canada</span></h5>
+          <h6> <span class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2018, August 2019</span> <span class="w3-opacity"style="float:right;">McGill University</span> </h6>
+          <p class="w3-opacity">Awarded twice for being in the top 10% of the Faculty of Science.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Tomlinson Engagement Award for Mentoring (x5) </b><span style="float:right;">Montreal, QC, Canada</span></h5>
+          <h6> <span class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>December 2017, April 2018 (X2), December 2018 (x2)</span> <span class="w3-opacity"style="float:right;">McGill University</span> </h6>
+          <p class="w3-opacity">Awarded to students based on excellent pedagogy skills for working as a teaching assistant.</p>
+          <hr>
+        </div>
+        
+      </div>
+      </div>
+
+</div>
+
+
+      <!-- <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
           <div class="w3-display-bottomleft w3-container w3-text-black">
           </div>
@@ -76,133 +187,229 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         	<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects</h2>
 
 
+
         	<div class="w3-container">
           <h4><b> Rudimentary Photo Editor </b></h4>
-          <p>Photo editor written in C that uses I/O operations, dynamic memory allocation, and pointer elements to manipulate binary data allowing the user to stack image files to makes collages, retrieve its information, or delete portions of the image</p>
-          <hr>
+          <div class="w3-text-black">
+          <p>Photo editor written in C that uses I/O operations, dynamic memory allocation, and pointer elements to manipulate binary data allowing the user to stack image files to makes collages, retrieve its information, or delete portions of the image.</p>
+      </div>
+        </div>
+
+
+        <div class="w3-container">
+          <h4><b> Covid StatAlert</b></h4>
+          <div class="w3-text-black">
+          <p> Using python and Twilio API, created a script to webscrape the government website and text me the daily covid numbers in Quebec divided by age group and location.</p>
+      </div>
+
+
         </div>
 
         <div class="w3-container">
           <h4><b> Tic Tac Toe </b></h4>
-          <p>Efficient, scalable program in Java which allows users to play Tic Tac Toe of arbitrary size. Implements foundational AI principles for player-versus-computer play</p>
-          <hr>
+          <div class="w3-text-black">
+          <p>Efficient, scalable program in Java which allows users to play Tic Tac Toe of arbitrary size. Implements foundational AI principles for player-versus-computer play.</p>
+      </div>
+
         </div>
         </div>
-      </div><br>
+      </div><br> -->
 
     <!-- End Left Column -->
 
 
-
-
-    </div>
-
     <!-- Right Column -->
     <div class="w3-twothird">
-    
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Relevant Experience</h2>
+    <!-- <div class="w3-container w3-card w3-white  w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+
 
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Teaching Assistant</b></h5>
+          <h5 class="w3-opacity"><b>McGill University</b> <span style="float:right;">Montreal, QC, Canada</span></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020 - 2024</h6>
+          <p>Doctor of Medicine and Master of Surgery (MDCM)</p>
+          <hr>
+        </div>
 
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sept 2017 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>McGill University</b> <span style="float:right;">Montreal, QC, Canada</span></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2020</h6>
+          <p>Major in Neuroscience, computational stream. Minor in Computer Science.</p>
+          <hr>
+       </div>
+   </div> -->
+
+   <!-- PROJECTS -->
+
+   <div class="w3-container w3-card w3-white  w3-margin-bottom">
+        
+        <!-- <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects</h2> -->
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-codepen fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects</h2>
+
+		<div class="row">
+  			
+		<div class="column">
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b> Covid StatAlert</b></h5>
+          	<div class="w3-text-black">
+          		<p> Using Python and Twilio API, created a script to webscrape the government website and text me the daily covid numbers in Quebec divided by age group and location.</p>
+     		</div>
+          <!-- <hr> -->
+
+        </div>
+    	</div>
+
+    	<div class="column">
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b> Tic Tac Toe </b></h5>
+          	<div class="w3-text-black">
+          		<p>Efficient, scalable program in Java which allows users to play Tic Tac Toe of arbitrary size. Implements foundational AI principles for player-versus-computer play.</p>
+      		</div>
+          <!-- <hr> -->
+        </div>
+    	</div>
+    	<div class="column">
+
+        
+		<div class="w3-container">
+          <h5 class="w3-opacity"><b> Rudimentary Photo Editor </b></h5>
+          	<div class="w3-text-black">
+          		<p>Using C to perform I/O operations, dynamic memory allocation, and pointer elements to manipulate binary data allowing the user to stack image files to makes collages, retrieve its information, or delete portions of the image.</p>
+      		</div>
+          <!-- <hr> -->
+          	<!-- <div class="vertical"></div> -->
+        </div>
+
+    	</div>
+        </div>
+       <hr>
+    </div>
+
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Most Meaningful Experiences</h2>
+
+<!-- TA -->
+        <div class="w3-container">
+           <h5 class="w3-opacity"><b>Teaching Assistant</b> <span style="float:right;">Montreal, QC, Canada</span></h5>    
+
+          <h6> <span class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sept 2017 - May 2022</span> <span class="w3-opacity"style="float:right;">McGill University</span> </h6>
 
           <h6 class="w3-medium"> <i><b> Foundations of Programming (COMP202), Introduction to Software Systems (COMP206), Introductory Organic Chemistry I (CHEM212), Introductory Organic Chemistry II (CHEM222), Molecular Biology (BIOL200), Introductory Physics (PHYS 102)</b></i> </h6>
 
-          <p><i>Responsibilities:</i> Monitoring Discussion Board and class Facebook page to help students grasp course material, holding office hours to help with assignments, being present during lecture for on-the-spot questions, running tutorials and review sessions assisting students in topics ranging from binary arithmetic to lists and recursion, as well as grading examinations.</p>
+          <p>Responsibilities included monitoring discussion boards and class groups to help students grasp course material, holding office hours to help with assignments, being present during lectures for on-the-spot questions, running tutorials and review sessions to practice course material at a greater depth, as well as grading examinations and assignments.</p>
+          <p>My most significant contribution is for COMP202, a 600 person introductory computer science class. I served as a TA for this class for 5 years with increasing responsibility allowing me to refine my teaching style to effectively cater to students with different abilities and backgrounds.</p>
+
+          <hr>
+        </div>
+<!-- class rep -->
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Class Representative</b> <span style="float:right;">Montreal, QC, Canada</span></h5>    
+
+          <h6> <span class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>July 2021 - <span class="w3-tag w3-teal w3-round">Current</span></span> <span class="w3-opacity"style="float:right;">MDCM Class of 2024 Council</span> </h6>
+
+          <p> <b>Being part of a community is really important to me and this position has helped me continue to foster that sense of community within our cohort. </b></p>
+  
+          <p>Planned large-scale events centered around major milestones in our training promoting class cohesiveness and bonding, increasing the sense of community. Memorable events include White Coat Cocktail and End of Pre-clinicals Goodbye. Currently in the process of planning our Graduation Ball.</p>
 
 
           <hr>
         </div>
 
+<!-- Osler -->
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Neuroscience Undegraduates of McGill VP Academic</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2018 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p> <i>Responsibilities:</i> Addressing all educational and curricular concerns of NUM, representing NUM at the Faculty and Academic Committees, and promoting the academic success of the Neuroscience program through dialogue with program administrators, advisors, and faculty.</p>
+          <h5 class="w3-opacity"><b>Osler Co-leader</b> <span style="float:right;">Montreal, QC, Canada</span></h5>    
+
+          <h6> <span class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>July 2021 - <span class="w3-tag w3-teal w3-round">Current</span></span> <span class="w3-opacity"style="float:right;">McGill Faculty of Medicine</span> </h6>
+
+          <p>  <b>This position allowed me to mentor junior medical students and help them navigate life at McGill.</b></p>
+          <p>As part of an Osler group consisting of 5 first-year medical students and a physician leader, I mentor the students from a senior student perspective. I offer them advice, help resolve their concerns, and am an open and confidential ear for their worries. Additionally help facilitate simulation sessions giving them feedback to further strengthen their patient interview and communication skills.</p>
           <hr>
         </div>
 
-
+<!-- Covid vaccinator -->
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>McGill iGEM research team</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sept 2017 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>International Genetically Engineered machine Competition (iGEM) is an annual synthetic biology competition held at the Massachusetts Institute of Technology. The project is completely student-led (team of 7 undergraduate students and 1 graduate student). The focus of our project was in the field of cell-cell interactions, specifically synNotch receptors. </p>
-          <p>  <i>Achievement:</i> Won the bronze medal at the copmetition for the 2018-2019 competition year.</p>
-          <p><i>Responsibilities:</i> troubleshooting in the lab and performing scientific experiments to assure the teams success in the competition. The team is under the supervision of Dr. Chalifour and Dr. Ursini-Segal from the Lady David Institute for Medical Research, and Dr. Hoesli from the McGill Chemical Engineering department.</p>
-          <p><i>Future work:</i> Our new project is focused on designing a biosensor for the detection of the active ingredients in Marijuana, we intend to improve on available Marijuana detection devices by detecting the relative ratio of CBD to THC based on a luminescence factor and by making the biosensor available as a point-of-care device.</p>
+          <h5 class="w3-opacity"><b>Covid Vaccinator</b> <span style="float:right;">Montreal, QC, Canada</span></h5>    
+
+          <h6> <span class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>February 2021 - December 2021 </span> <span class="w3-opacity"style="float:right;">CIUSSS West-Central Montreal</span> </h6>
+
+          <p> <b>During a time of wide-spread closures due to the pandemic, this job gave me meaningful exposure to patients, allowed to make human connections, and gave me a strong sense of purpose.</b></p>
+
+          <p>Assisted in the mass vaccination effort against COVID-19 in Quebec by administering the vaccine. Worked approximately 400 hours in total vaccinating thousands of people. </p>
+          <hr>
+        </div>
+
+<!-- iGEM -->
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>iGEM Competitor</b> <span style="float:right;">Montreal, QC, Canada</span></h5>    
+
+          <h6> <span class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>September 2017 - June 2020 </span> <span class="w3-opacity"style="float:right;">McGill Research Team</span> </h6>
+
+          <p>  <b>Our team won the bronze medal at the 2018-2019 iGEM Jamboree. </b></p>
+          <p>International Genetically Engineered machine Competition (iGEM) is an annual synthetic biology competition held at the Massachusetts Institute of Technology. The project was completely student-led (team of 7 undergraduate students and 1 graduate student). The focus of our project was in the field of cell-cell interactions, specifically synNotch receptors. </p>
+          <p>Responsibilities included troubleshooting in the lab and doing wet-lab work to ensure the teams success in the competition. The team was supported by Dr. Chalifour and Dr. Ursini-Segal from the Lady David Institute for Medical Research, and Dr. Hoesli from the McGill Chemical Engineering department.</p>
           
           <hr>
         </div>
 
-<!--
-  MGH PART
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Montreal General Hospital Volunteer</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2017 - July 2017</h6>
-          <p><i>Responsibilities:</i> Helping patients eat, perform physiotherapy, and friendly visiting to insure the patients were comfortable. </p><br>
-        </div>
-        <hr>
--->
       </div>
-      <div class="w3-container w3-card w3-white  w3-margin-bottom">
+      <!-- <div class="w3-container w3-card w3-white  w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>McGill University</b></h5>
-          <h5 class="w3-opacity"align="Right"><b>Montreal, QC, Canada</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016-2020</h6>
-          <p>Neuroscience & Computer Science</p>
+          <h5 class="w3-opacity"><b>McGill University</b> <span style="float:right;">Montreal, QC, Canada</span></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020 - 2024</h6>
+          <p>Doctor of Medicine and Master of Surgery (MDCM)</p>
           <hr>
         </div>
+
         <div class="w3-container">
-          <td nowrap><h5 class="w3-opacity"><b>Sabis International School</b> </h5></td>
-          <h5 class="w3-opacity"align="Right"><b>Adma, Lebanon</b></h5>
-
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - 2016</h6>
-          <p>High School Graduation Diploma, with Distinction within Honors</p>
+          <h5 class="w3-opacity"><b>McGill University</b> <span style="float:right;">Montreal, QC, Canada</span></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2020</h6>
+          <p>Major in Neuroscience, computational stream. Minor in Computer Science.</p>
           <hr>
-
-        </div>
-
+        </div> -->
 
 
     <!-- End Right Column -->
-    </div>
+    <!-- </div> -->
 
-      <div class="w3-container w3-card w3-white">
+      <!-- <div class="w3-container w3-card w3-white">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Honors & Awards</h2>
+
+
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Deans Honors List </b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2018</h6>
-          <p>Awarded to the top 10% of the Faculty of Science</p>
+          <h5 class="w3-opacity"><b>Graduation Deans Honors List </b> <span style="float:right;">Montreal, QC, Canada</span></h5>
+
+         <h6> <span class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2020</span> <span class="w3-opacity"style="float:right;">McGill University</span></h6>
+
+          <p>Awarded for graduating within the top 10% of the Faculty of Science.</p>
+          <hr>
+        </div>
+
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Science Class of 1965 Scholarship </b><span style="float:right;">Montreal, QC, Canada</span></h5>
+          <h6> <span class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>August 2019</span> <span class="w3-opacity"style="float:right;">McGill University</span> </h6>
+
+          <p>Awarded based on academic standing.</p>
+          <hr>
+        </div>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Deans Honors List </b><span style="float:right;">Montreal, QC, Canada</span></h5>
+          <h6> <span class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2018, August 2019</span> <span class="w3-opacity"style="float:right;">McGill University</span> </h6>
+          <p>Awarded twice for being in the top 10% of the Faculty of Science.</p>
           <hr>
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Tomlinson Engagement Award for Mentoring (x3) </b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2017, May 2018 (x2)</h6>
-          <p>Awarded to students that improve the teaching resources for courses by being peer-mentors</p>
+          <h5 class="w3-opacity"><b>Tomlinson Engagement Award for Mentoring (x5) </b><span style="float:right;">Montreal, QC, Canada</span></h5>
+          <h6> <span class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>December 2017, April 2018 (X2), December 2018 (x2)</span> <span class="w3-opacity"style="float:right;">McGill University</span> </h6>
+          <p>Awarded to students based on excellent pedagogy skills for working as a teaching assistant.</p>
           <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>AP Scholar Award</b> </h5>
-
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>July 2016</h6>
-          <p>Granted to students who recieve scores of 3 or higher on three or more AP Exams</p>
-          <hr>
-
-        </div>
-
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Distinction Within Honors, Sabis International School</b> </h5>
-
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2016</h6>
-          <p>Designated to students who recieve >90% overall average upon graduation</p>
-          <hr>
-
-        </div>
-
-
-
+        </div> -->
+        
       </div>
 
   <!-- End Grid -->
@@ -224,6 +431,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   <a href="https://www.linkedin.com/in/chris-rafiaa-5a71b813a/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
   <a href="https://github.com/chrisrafiaa" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
    <!-- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p> -->
+ <!--  <a href="https://www.alltrails.com/en/members/chris-rafiaa?utm_campaign=mobile-iphone&sh=as7vum" target="_blank"><i class='fa fa-hiking'></i></a> -->
+<!--  <a href="https://www.alltrails.com/en/members/chris-rafiaa?utm_campaign=mobile-iphone&sh=as7vum" target="_blank"><button><i class="fas fa-hiking"></i></a> -->
+
+
 
 </footer>
 
